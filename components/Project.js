@@ -40,7 +40,7 @@ const Project = () => {
                   >
                     <i
                       loading='lazy'
-                      className='fab fa-github-square  background1 mr-1'
+                      className='fab fa-github aria-hidden  background1 mr-1'
                     ></i>
                     client
                   </a>
@@ -52,7 +52,7 @@ const Project = () => {
                   >
                     <i
                       loading='lazy'
-                      className='fab fa-github-square  background1 mr-1'
+                      className='fab fa-github aria-hidden  background1 mr-1'
                     ></i>
                     server
                   </a>
@@ -64,7 +64,7 @@ const Project = () => {
                   >
                     <i
                       loading='lazy'
-                      className='fas fa-external-link-alt  background1 mr-1'
+                      className='fas fa-external-link-alt aria-hidden background1 mr-1'
                     ></i>
                     view project
                   </a>

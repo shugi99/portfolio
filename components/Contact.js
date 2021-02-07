@@ -73,7 +73,7 @@ const Contact = () => {
                   rel='noreferrer'
                 >
                   <span className='mb-2 flex flex-row items-end  background p-2 rounded-lg text-sm '>
-                    <i className='fab fa-linkedin mr-2 fa-lg' />
+                    <i className='fab fa-linkedin mr-2 fa-lg aria-hidden' />
                     Linked In
                   </span>
                 </a>
@@ -86,7 +86,7 @@ const Contact = () => {
                   rel='noreferrer'
                 >
                   <span className='mb-2 flex flex-row items-end  background p-2 rounded-lg text-sm'>
-                    <i class='fab fa-github-square mr-2 fa-lg'></i>
+                    <i className='fab fa-github mr-2 fa-lg aria-hidden'></i>
                     GitHub
                   </span>
                 </a>
