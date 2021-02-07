@@ -6,11 +6,7 @@ const Skill = () => {
       </header>
       <section className='my-16 m-4  px-5 background'>
         <div className='my-7 grid gap-5 grid-cols-3 md:grid-cols-6 '>
-          <div
-            className='flex flex-col items-center rounded-lg text-sm my-6'
-            tabIndex='0'
-            role='img'
-          >
+          <div className='flex flex-col items-center rounded-lg text-sm my-6'>
             <i
               loading='lazy'
               className='fab fa-js-square  fa-4x background4 mb-1 pt-2'
@@ -19,11 +15,7 @@ const Skill = () => {
               Javascript
             </div>
           </div>
-          <div
-            className='flex flex-col items-center my-6'
-            tabIndex='0'
-            role='img'
-          >
+          <div className='flex flex-col items-center my-6'>
             <i
               loading='lazy'
               className='fab fa-react fa-4x background4 mb-1'
@@ -33,11 +25,7 @@ const Skill = () => {
             </div>
           </div>
 
-          <div
-            className='flex flex-col items-center my-6'
-            tabIndex='0'
-            role='img'
-          >
+          <div className='flex flex-col items-center my-6'>
             <i
               loading='lazy'
               className='cib-next-js  fa-4x background4 mb-1'
@@ -46,11 +34,7 @@ const Skill = () => {
               Next JS
             </div>
           </div>
-          <div
-            className='flex flex-col items-center my-6'
-            tabIndex='0'
-            role='img'
-          >
+          <div className='flex flex-col items-center my-6'>
             <i
               loading='lazy'
               className='fab fa-node  fa-4x background4 mb-1'
@@ -59,11 +43,7 @@ const Skill = () => {
               Node Js
             </div>
           </div>
-          <div
-            className='flex flex-col items-center my-6'
-            tabIndex='0'
-            role='img'
-          >
+          <div className='flex flex-col items-center my-6'>
             <i
               loading='lazy'
               className='cib-mongodb  fa-4x background4 mb-1'
@@ -72,33 +52,21 @@ const Skill = () => {
               MongoDB
             </div>
           </div>
-          <div
-            className='flex flex-col items-center my-6'
-            tabIndex='0'
-            role='img'
-          >
+          <div className='flex flex-col items-center my-6'>
             <i
               loading='lazy'
               className='fab fa-html5  fa-4x background4 mb-1'
             ></i>
             <div className='px-2 py-1 rounded-lg text-sm background'>HTML5</div>
           </div>
-          <div
-            className='flex flex-col items-center my-6'
-            tabIndex='0'
-            role='img'
-          >
+          <div className='flex flex-col items-center my-6'>
             <i
               loading='lazy'
               className='fab fa-css3-alt  fa-4x background4 mb-1'
             ></i>
             <div className='px-2 py-1 rounded-lg text-sm background'>CSS3</div>
           </div>
-          <div
-            className='flex flex-col items-center my-6'
-            tabIndex='0'
-            role='img'
-          >
+          <div className='flex flex-col items-center my-6'>
             <i
               loading='lazy'
               className='fab fa-bootstrap  fa-4x background4 mb-1'
@@ -107,26 +75,28 @@ const Skill = () => {
               Bootstrap
             </div>
           </div>
-          <div
-            className='flex flex-col items-center my-6'
-            tabIndex='0'
-            role='img'
-          >
+          <div className='flex flex-col items-center my-6'>
             <i loading='lazy' className='fab fa-adn fa-4x background4 mb-1'></i>
             <div className='px-2 py-1 rounded-lg text-sm background'>
               Ant Design
             </div>
           </div>
-          <div
-            className='flex flex-col items-center my-6'
-            tabIndex='0'
-            role='img'
-          >
+          <div className='flex flex-col items-center my-6'>
             <i
               loading='lazy'
               className='fab fa-git-alt  fa-4x background4 mb-1'
             ></i>
             <div className='px-2 py-1 rounded-lg text-sm background'>Git</div>
+          </div>
+
+          <div className='flex flex-col items-center my-6'>
+            <i
+              loading='lazy'
+              className='fab fa-github-square  fa-4x background4 mb-1'
+            ></i>
+            <div className='px-2 py-1 rounded-lg text-sm background'>
+              GitHub
+            </div>
           </div>
         </div>
       </section>

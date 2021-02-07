@@ -27,7 +27,7 @@ const Hero = () => {
             Hello. I’m Shugi Yen
           </h1>
           <p className='tracking-wide leading-relaxed'>
-            Im a web developer based on Nagoya, Japan.
+            Im a React JS developer based in Nagoya, Japan.
           </p>
         </div>
       </section>

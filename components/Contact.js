@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const state = {
   name: '',
@@ -52,14 +53,18 @@ const Contact = () => {
                 shugi.lazala@yahoo.com
               </a>
             </div>
-            <a
-              className=' mt-3 inline-block background2'
-              href='./Resume.pdf'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Download Resume
-            </a>
+            <div>
+              <Link href='/Shugi-Yen-Lazala-Resume.pdf'>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className=' mt-3 inline-block background2'
+                >
+                  Download CV
+                </a>
+              </Link>
+            </div>
+
             <div className='flex flex-row flex-wrap mt-7 justify-center'>
               <div className='mr-4'>
                 <a
